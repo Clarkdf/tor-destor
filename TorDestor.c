@@ -45,6 +45,7 @@ int main() {
 
     random_wipe(file, size);
 
+    fread(content, 1, size, file);
     printf("Wiped contents: %s\n", content);
 
 
