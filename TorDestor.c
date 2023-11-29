@@ -36,25 +36,13 @@ int main() {
 
     size_t size = ftell(file); 
     rewind(file);
-
-    char *content = malloc(size);
     
-    fread(content, 1, size, file);
-
-    printf("File contents: %s\n", content);
-
     random_wipe(file, size);
-
-    fread(content, 1, size, file);
-    printf("Wiped contents: %s\n", content);
-
 
     fseek(file, 0L, SEEK_SET);
 
     fclose(file);
-    free(content);
-
     remove(file_name);
- 
+
     return 0;
 }
