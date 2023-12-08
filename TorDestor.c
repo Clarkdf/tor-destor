@@ -27,9 +27,9 @@ void random_wipe(FILE *file, size_t size) {
 
 
 
-int main() {
-    // TODO: Change this filename to ToR artifacts
-    char *file_name = "Sensitive.txt";
+int main(int artc, char **argv) {
+
+    char *file_name = argv[1];
 
     FILE *file = fopen(file_name, "r+");
 
