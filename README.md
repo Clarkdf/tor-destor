@@ -1,10 +1,13 @@
 # tor-destor
 Virginia Tech CS5584 (Network Security) Final Project F23 -- A program for removing Tor Artifacts on a Linux Machine written in C
 
+## Jupyter Notebook Link
+[TorDestor Jupyter Notebook](https://deepnote.com/workspace/virginia-tech-4b73-c437da22-c3a2-4bf8-b4ac-c9a2319a40de/project/CS5584-NetSec-4baccb8d-c32e-49a3-9a95-939b2655f7ab/notebook/TorDestor-da48014121b44ee1b10100ddf943849a)
+
 ## Instructions for Running TorDestor:
 * To run TorDestor, you must have a C compiler on your workstation.
 * Compile the C program into an executable.
-* Run the executable with the following command: './tordestor [ARTEFACT NAME]'
+* Run the executable with the following command: './tordestor [ARTIFACT NAME]'
 
 ## Instructions for Experiment Simulation:
 ### On Linux/Mac: 
