@@ -1,5 +1,11 @@
+clear
+echo 'Compiling TorDestor'
 # Compile Program
 gcc -o TorDestor TorDestor.c
+echo 'Compiled'
+echo 'Running Artefact removal...'
+
+
 
 # Run on each Artefact
 ./TorDestor experiment/TorArtefact1.txt
@@ -12,3 +18,5 @@ gcc -o TorDestor TorDestor.c
 ./TorDestor experiment/TorArtefact8.txt
 ./TorDestor experiment/TorArtefact9.txt
 ./TorDestor experiment/TorArtefact10.txt
+
+echo 'Artefacts removed!'
