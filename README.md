@@ -15,5 +15,5 @@ Virginia Tech CS5584 (Network Security) Final Project F23 -- A program for remov
 
 ## Note:
 * When running TorDestor, it will appear as if the program did not garble the artifact files.
-* This is a quirk with the fremove function and the IDE. If you run the code without fremove, it shows the garbling.
-* When you delete it, it doesn't show that it garbled, but it did. It's just a quirk with the IDE and fremove I think.
+* This is a quirk with the fremove function and the IDE. If you run the code without remove, it shows the garbling.
+* When you delete it, it doesn't show that it garbled, but it did. It's just a quirk with the IDE and remove.
